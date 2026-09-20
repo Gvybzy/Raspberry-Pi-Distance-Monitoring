@@ -109,8 +109,4 @@ Possible improvements after the initial prototype:
 
 ## Project Status
 
-🚧 **In Development**
-
-This project is currently in the planning stage. The README will be updated as development progresses.
-
 
