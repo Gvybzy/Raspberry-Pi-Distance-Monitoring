@@ -10,7 +10,13 @@ This project aims to use a Raspberry Pi and an ultrasonic distance sensor to mon
 
 The system will categorize the detected distance into predefined ranges and activate different LEDs and buzzer warning levels depending on how close the object is.
 
+## Planned Warning Levels
 
+| Distance Range | LED    | Sound        |
+| -------------- | ------ | ------------ |
+| 🟢 Far         | Green  | No sound     |
+| 🟡 Medium      | Yellow | Soft warning |
+| 🔴 Near        | Red    | Loud warning |
 
 *The exact distance thresholds will be determined during development and testing.*
 
@@ -33,17 +39,7 @@ The system will categorize the detected distance into predefined ranges and acti
 * Continuous Monitoring
 * Configurable Distance Thresholds *(planned)*
 
-## Planned Hardware
 
-* Raspberry Pi
-* Ultrasonic Distance Sensor
-* Green LED
-* Yellow LED
-* Red LED
-* Buzzer
-* Resistors
-* Breadboard
-* Jumper Wires
 
 ## Planned System Flow
 
