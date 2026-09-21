@@ -39,7 +39,17 @@ The system will categorize the detected distance into predefined ranges and acti
 * Continuous Monitoring
 * Configurable Distance Thresholds *(planned)*
 
+## Planned Hardware
 
+* Raspberry Pi
+* Ultrasonic Distance Sensor
+* Green LED
+* Yellow LED
+* Red LED
+* Buzzer
+* Resistors
+* Breadboard
+* Jumper Wires
 
 ## Planned System Flow
 
