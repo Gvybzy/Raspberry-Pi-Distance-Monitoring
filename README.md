@@ -73,7 +73,19 @@ Continue Monitoring
 Repeat
 ```
 
+## Development Plan
 
+* [ ] Set up Raspberry Pi
+* [ ] Connect ultrasonic distance sensor
+* [ ] Test basic distance measurement
+* [ ] Connect and test LEDs
+* [ ] Connect and test buzzer
+* [ ] Implement distance classification
+* [ ] Combine sensor, LEDs, and buzzer
+* [ ] Test different distance ranges
+* [ ] Improve reading stability
+* [ ] Document the completed system
+* [ ] Add project photos and demonstration
 
 ## Future Improvements
 
