@@ -4,6 +4,11 @@ A Raspberry Pi-based distance monitoring system designed to measure the distance
 
 > 🚧 **Status: In Development**
 
+## Overview
+
+This project aims to use a Raspberry Pi and an ultrasonic distance sensor to monitor the distance of an object in real time.
+
+The system will categorize the detected distance into predefined ranges and activate different LEDs and buzzer warning levels depending on how close the object is.
 
 ## Planned Warning Levels
 
