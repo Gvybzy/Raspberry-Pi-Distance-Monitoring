@@ -1,114 +1,51 @@
 # Raspberry Pi-Based Distance Monitoring and Warning System
 
-A Raspberry Pi-based distance monitoring system designed to measure the distance of an object in centimeters and provide visual and audio warnings based on the detected distance.
+A Raspberry Pi project that uses an **ultrasonic distance sensor** to measure an object's distance in centimeters and provide visual and audio warnings based on how close it is.
 
 > 🚧 **Status: In Development**
 
-## Overview
+## How It Works
 
-This project aims to use a Raspberry Pi and an ultrasonic distance sensor to monitor the distance of an object in real time.
+The system will classify the detected distance into three levels:
 
-The system will categorize the detected distance into predefined ranges and activate different LEDs and buzzer warning levels depending on how close the object is.
+| Range     | LED    | Buzzer       |
+| --------- | ------ | ------------ |
+| 🟢 Far    | Green  | Off          |
+| 🟡 Medium | Yellow | Soft warning |
+| 🔴 Near   | Red    | Loud warning |
 
-## Planned Warning Levels
-
-| Distance Range | LED    | Sound        |
-| -------------- | ------ | ------------ |
-| 🟢 Far         | Green  | No sound     |
-| 🟡 Medium      | Yellow | Soft warning |
-| 🔴 Near        | Red    | Loud warning |
-
-*The exact distance thresholds will be determined during development and testing.*
-
-## Objectives
-
-* Build a real-time distance monitoring system using Raspberry Pi.
-* Measure object distance in centimeters using an ultrasonic sensor.
-* Categorize distance readings into predefined ranges.
-* Use LEDs to visually indicate the detected range.
-* Use a buzzer to provide distance-based audio warnings.
-* Gain practical experience with Raspberry Pi GPIO and sensor integration.
-
-## Planned Features
-
-* Real-Time Distance Measurement
-* Centimeter-Based Distance Reading
-* Automatic Distance Classification
-* Green, Yellow, and Red LED Indicators
-* Distance-Based Buzzer Alerts
-* Continuous Monitoring
-* Configurable Distance Thresholds *(planned)*
+*Distance thresholds will be determined during development.*
 
 ## Planned Hardware
 
 * Raspberry Pi
 * Ultrasonic Distance Sensor
-* Green LED
-* Yellow LED
-* Red LED
+* Green, Yellow, and Red LEDs
 * Buzzer
 * Resistors
-* Breadboard
-* Jumper Wires
+* Breadboard and Jumper Wires
 
-## Planned System Flow
+## System Flow
 
 ```text
-Start
-  ↓
-Initialize Raspberry Pi
-  ↓
-Initialize Ultrasonic Sensor
-  ↓
-Initialize LEDs and Buzzer
-  ↓
 Measure Distance
-  ↓
-Determine Distance Range
-  ↓
-Activate Corresponding LED/Buzzer
-  ↓
-Continue Monitoring
-  ↓
-Repeat
+       ↓
+Determine Range
+       ↓
+Activate LED & Buzzer
+       ↓
+Repeat Monitoring
 ```
 
-## Development Plan
+## Project Goals
 
-* [ ] Set up Raspberry Pi
-* [ ] Connect ultrasonic distance sensor
-* [ ] Test basic distance measurement
-* [ ] Connect and test LEDs
-* [ ] Connect and test buzzer
-* [ ] Implement distance classification
-* [ ] Combine sensor, LEDs, and buzzer
-* [ ] Test different distance ranges
-* [ ] Improve reading stability
-* [ ] Document the completed system
-* [ ] Add project photos and demonstration
+* Learn Raspberry Pi GPIO programming
+* Integrate an ultrasonic sensor
+* Process real-time distance readings
+* Control LEDs and a buzzer based on sensor data
 
-## Future Improvements
+## Development Status
 
-Possible improvements after the initial prototype:
+🚧 **Currently in the planning stage.**
 
-* Add an LCD/OLED display for distance readings.
-* Store distance measurements for later analysis.
-* Add a web-based monitoring dashboard.
-* Add configurable warning thresholds.
-* Improve sensor filtering and measurement stability.
-
-## What I Expect to Learn
-
-* Raspberry Pi GPIO programming
-* Ultrasonic sensor integration
-* Hardware and software interaction
-* Real-time sensor data processing
-* Conditional logic
-* Basic embedded-system development
-* Hardware troubleshooting and testing
-
-## Project Status
-
-🚧 **In Development**
-
-This project is currently in the planning stage. The README will be updated as development progresses.
+The system has not been implemented yet. This README will be updated as development progresses.
