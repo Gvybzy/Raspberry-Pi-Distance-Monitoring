@@ -1,4 +1,3 @@
-# Raspberry Pi-Based Distance Monitoring and Warning System
 
 A Raspberry Pi project that uses an **ultrasonic distance sensor** to measure an object's distance in centimeters and provide visual and audio warnings based on how close it is.
 
