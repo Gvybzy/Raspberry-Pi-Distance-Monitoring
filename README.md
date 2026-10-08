@@ -8,7 +8,7 @@ A Raspberry Pi project that uses an **ultrasonic distance sensor** to measure an
 
 The system will classify the detected distance into three levels:
 
-| Range     | LED    | Buzzer       |
+| Range     | LED    | Buzzer       | 
 | --------- | ------ | ------------ |
 | 🟢 Far    | Green  | Off          |
 | 🟡 Medium | Yellow | Soft warning |
