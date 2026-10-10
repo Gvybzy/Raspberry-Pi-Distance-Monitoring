@@ -5,8 +5,8 @@ A Raspberry Pi project that uses an **ultrasonic distance sensor** to measure an
 > 🚧 **Status: In Development**
 
 ## How It Works
-
-The system will classify the detected distance into three levels: 
+S
+The system will classify the detected distance into three levels:
 
 | Range     | LED    | Buzzer       | 
 | --------- | ------ | ------------ |
