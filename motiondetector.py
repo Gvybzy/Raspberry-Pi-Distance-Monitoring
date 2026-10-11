@@ -1,7 +1,7 @@
 from machine import Pin, I2C
 import utime
 from pico_i2c_lcd import I2cLcd
-
+ 
 # ---------------- PINS ----------------
 red_led1 = Pin(15, Pin.OUT)
 red_led2 = Pin(17, Pin.OUT)
